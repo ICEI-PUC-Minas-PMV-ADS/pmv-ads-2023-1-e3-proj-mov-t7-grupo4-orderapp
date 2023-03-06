@@ -72,26 +72,27 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| A aplicação deverá permitir o cadastro de funcionários  | ALTA | 
+|RF-002| A aplicação deverá permitir que o garçom realize a abertura do pedido de um cliente |ALTA |
+|RF-003|A aplicação deverá permitir que o garçom consiga atrelar o pedido do cliente a sua respectiva mesa| ALTA | 
+|RF-004| A aplicação deverá permitir o cadastro das opções de refeições que serão disponibilizadas no cardápio com fotos e preços | ALTA |
+|RF-005|A aplicação deverá permitir que o pedido seja finalizado | ALTA | 
+|RF-006|A aplicação deverá realizar o cálculo do valor do pedido do cliente | ALTA |
+|RF-007|A aplicação deverá informar o tempo de permanência do cliente no estabelecimento | MÉDIA | 
+|RF-008|A aplicação deverá permitir cadastramento das mesas | ALTA |
+|RF-009|A aplicação deverá permitir que o pedido seja visualizado pelo setor de Cozinha| ALTA | 
+|RF-010|A aplicação deverá permitir gerar QRCode para que o cliente possa acessar o cardápio| MÉDIA |
+|RF-011|A aplicação deverá informar o status do pedido na comanda   | ALTA |
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001|A aplicação deverá permitir o acesso de várias pessoas simultaneamente | ALTA | 
+|RNF-002|A aplicação deverá ser responsiva se adequando a smartphones e tablets|   ALTA | 
+|RNF-003|A aplicação deverá ser protegida contra acesso não autorizado |  ALTA | 
+|RNF-004|A aplicação deverá ser prática quanto ao uso e entendimento |   ALTA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
