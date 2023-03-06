@@ -1,46 +1,27 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+ Vivemos hoje em um mundo super conectado e cada vez mais digital, e com os avanços da tecnologia e das ferramentas de programação vieram os aplicativos de smartphones, disponíveis hoje em várias plataformas, como Andoid, IOS, Linux, macOS e até o Windows. E aliado a praticidade da utilização e principalmente por ser portátil, ou seja, está sempre em nossas mãos, os aplicativos de smartphones viraram os melhores amigos e parceiros de todas as horas de muita gente. Por essa razão, pode ser uma ótima ideia usá-los como aliados em tarefas de gestão, organização, comunicação e divulgação dentro de um bar ou um restaurante. E foi pensando nisso, e como um aplicativo poderia auxiliar os bares e restaurantes nos pedidos dos clientes, com o intuito de digitalizar, modernizar e facilitar a vida do garçom e do cliente, que pensamos em desenvolver uma ferramenta para agilizar todo esse processo. Os apps para gestão de restaurante são ferramentas imprescindíveis para aprimorar o atendimento e a gestão do seu bar ou restaurante, e com eles algumas tarefas se tornam automatizadas e sobra mais tempo para administrar outros setores do negócio. 
+ E pensando no problema exposto, optamos como solução usar a programação e a tecnologia em nosso favor, desenvolvemos o OrderApp, um app para gerenciar os pedidos dos bares e restaurantes de maneira rápida e fácil, sem transtornos para o garçom ou para o cliente. Com o OrderApp, o garçom já não utiliza de papel e caneta para anotar os pedidos de cada cliente, cada pedido é separado por mesa e por comanda dentro do próprio aplicativo. Onde ali é listado de maneira fácil e inteligente tudo o que o cliente já consumiu, o valor da conta, o tempo em que ele se encontra no estabelecimento, e todos os pedidos do cliente vão direto para um monitor na cozinha, onde imediatamente esse pedido já entra na fila de espera de preparo, diminuindo tempo e agilizando o processo junto ao garçom. O sistema ainda conta com uma função de visualizar cardápio disponível pelo estabelecimento através de um Qrcode, onde dentro dele existe uma função de chamar o garçom para atendimento naquela determinada mesa.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+ Em bares e restaurantes, sejam eles de médio, pequeno ou grande porte, há uma necessidade sempre de atender o cliente da melhor maneira possível. Mas com uso de métodos antigos como caneta e papel há uma certa demora para anotar o pedido do cliente, demora na hora de solicitar um serviço ou pedir uma bebida, ou algo para comer. Para facilitar o trabalho do garçom e agilizar todo esse processo de pedidos do cliente, foi que pensamos em desenvolver um aplicativo que agiliza todo essas tarefas, com um cardápio digital e uma gestão de pedidos totalmente integrados em um só sistema. 
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+* Organizar de maneira objetiva os pedidos realizados pelos clientes nos estabelecimentos;  
+* Centralizar os pedidos, comandas, mesas disponíveis, mesas em uso dentro de um único sistema, de maneira clara, rápida e de fácil acesso para os garçons; 
+* Otimizar e agilizar os pedidos para os funcionários da cozinha do estabelecimento, o pedido precisa chegar de forma clara para não perder tempo ao começar o preparo do pedido;  
+* Disponibilizar um cardápio via Qrcode para o cliente, e disponibilizar uma opção para chamar o garçom, para evitar do cliente ficar esperando o atendimento;  
+* Fácil inclusão de novos itens no cardápio através da plataforma com ajustes de preços, inserção de fotos e informações adicionais sobre o item; 
+* Através do aplicativo o garçom pode fechar a comanda do cliente de maneira rápida, já conferir o que foi consumido, agilizando assim o processo de pagamento; 
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+ Em 2021, o jornal Estado de São Paulo divulgou em uma reportagem que durante a pandemia, bares e restaurantes mantiveram uma tendencia em utilizar cada vez mais a tecnologia em favor do atendimento ao cliente, e a gestão do estabelecimento como um todo. Afinal tais estabelecimentos precisam lidar com gestão financeira, RH, e um complexo controle de fornecedores, estoque, delivery e atendimento ao cliente, e tudo ao mesmo tempo. Com tanta coisa, é comum o negócio perder dinheiro com desperdício e pedidos errôneos de clientes. “Sem um sistema para os desafios do dia a dia, é difícil alcançar a lucratividade...” diz Gustavo Penz, diretor de operações da rede de franquias GoCoffee. Penz ainda disse que tais ferramentas automatiza processos, e enxuga a folha salarial, permitindo o investimento em funcionários mais qualificados. (JORNAL ESTADO DE SÃO PAULO, 2021).  
+ A mesma reportagem ainda cita diversas outras vantagens em utilizar a tecnologia em favor de tais estabelecimentos que visam geram mais eficiência, como atendimento mais rápido ao cliente, Flexibilidade de cardápios digitais, atendimento de um número maior de pessoas ao mesmo tempo, redução dos erros nos pedidos, dentre outras vantagens. 
+ E com todas essas vantagens em utilizar os sistemas de cardápios digitais e um sistema de gestão de pedidos integrados, é que vem a maior motivação deste trabalho. Embora nosso sistema, não será um sistema completo com gestão de estoque, notas fiscais, e entregas, acreditamos que será de muita utilidade para bares, restaurantes, lanchonetes e padarias, uma vez que o foco do nosso aplicativo será cardápio digital e gestão de pedidos dentro do estabelecimento. 
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+ O público-alvo do nosso projeto são bares, restaurantes, lanchonetes e padarias, que desejam utilizar cardápio digital fornecido diretamente para o cliente, onde ali ele escolhe o que quer consumir, com opção de chamar o garçom através do próprio sistema. E para o estabelecimento, um sistema completo de gestão de pedidos, com foco na eficiência e praticidade das tarefas do garçom, uma vez que o pedido chega diretamente à cozinha, sem perdas de tempo, e tudo é visualizado através de uma interface limpa e clara, como mesas disponíveis, mesas ocupadas, comandas em aberto, valor de cada comanda, tudo com o intuito de melhorar a eficiência do estabelecimento. 
