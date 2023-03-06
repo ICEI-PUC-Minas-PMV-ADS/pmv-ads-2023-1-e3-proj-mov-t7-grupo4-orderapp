@@ -1,23 +1,26 @@
-# TÍTULO DO PROJETO
+# Order App
 
-`CURSO`
+`ANÁLISE E DESENVOLVIMENTO DE SOFTWARE`
 
-`DISCIPLINA`
+`Desenvolvimento de uma Aplicação Móvel em um Ambiente de Negócio`
 
-`SEMESTRE`
+`TERCEIRO SEMESTRE`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* César Luis Costa Moreira 
+* Douglas Delareti Simões 
+* Karinne Agnes Massensini Pereira 
+* Pedro Henrique Ertal de Oliveira 
+* Rafael de Assis Oliveira 
+* Thais Gurgel Bezerra 
+* Vinícius de Souza Ponciano 
 
 ## Orientador
 
-* Nome completo do professor 1
+* Vitor Mangaravite
 
 ## Instruções de utilização
 
