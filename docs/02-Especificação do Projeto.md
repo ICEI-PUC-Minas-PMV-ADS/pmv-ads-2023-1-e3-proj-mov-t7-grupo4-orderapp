@@ -140,6 +140,26 @@ O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utiliz
 
 ![IMG2](https://user-images.githubusercontent.com/103225367/223001137-9938a7db-0e4b-46a0-9acb-95840bfca6e8.png)
 
+## Pessoal do Projeto 
+
+A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. 
+A equipe está organizada da seguinte maneira:  
+
+Scrum Master: 
+Karinne Agnes Massensini Pereira 
+
+Product Owner: 
+Rafael de Assis Oliveira 
+ 
+Equipe de Desenvolvimento: 
+Douglas Delareti Simões 
+Pedro Henrique Ertal de Oliveira 
+Thaís Gurgel Bezerra 
+Vinícius de Souza Ponciano 
+
+Equipe de Design: 
+César Luis Costa Moreira 
+
 ## Gerenciamento de Equipe
 
 O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
