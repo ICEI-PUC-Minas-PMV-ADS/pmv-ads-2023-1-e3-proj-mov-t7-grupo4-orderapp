@@ -19,10 +19,11 @@ As personas levantadas durante o processo de entendimento do problema são apres
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                        |PARA ... `MOTIVO/VALOR`                                     |
+|--------------------|-----------------------------------------------------------|------------------------------------------------------------|
+|Marcelo da Silva    | Comunicação mais rápida entre garçom e cozinha            | Agilizar o preparo dos pedidos                             |
+|Melissa Gomes       | Controle de caixa                                         | Ter uma média de ganhos por dia                            |
+|Bruno Henrique      | Comanda digital                                           | Minimizar os esquecimentos de pedidos feitos pelo cliente  |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
