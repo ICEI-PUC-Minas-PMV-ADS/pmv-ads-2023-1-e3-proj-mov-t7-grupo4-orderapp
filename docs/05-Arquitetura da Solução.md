@@ -4,7 +4,7 @@
 
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
-![Arquitetura da Solução](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t7-grupo4-orderapp/main/docs/img/OrderApp%20Diagrama.png)
+![Arquitetura da Solução]
 
 ## Diagrama de Classes
 
@@ -37,7 +37,7 @@ Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do ba
 
 ## Modelagem BPMN
 
-![Arquitetura da Solução](img/OrderApp Diagrama.png)
+![Arquitetura da Solução](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t7-grupo4-orderapp/main/docs/img/OrderApp%20Diagrama.png)
 
 ## Tecnologias Utilizadas
 
