@@ -25,6 +25,11 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Melissa Gomes       | Controle de caixa                                         | Ter uma média de ganhos por dia                            |
 |Bruno Henrique      | Comanda digital                                           | Minimizar os esquecimentos de pedidos feitos pelo cliente  |
 
+## Modelagem do Processo de Negócio
+
+Abaixo modelagem no Padrão BPMN especificando processo do negócio.
+
+![Especificações do Projeto](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t7-grupo4-orderapp/main/docs/img/OrderApp%20Diagrama.png)
 
 ## Requisitos
 
