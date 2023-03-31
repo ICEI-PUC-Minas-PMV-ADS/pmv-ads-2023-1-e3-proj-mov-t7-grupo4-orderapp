@@ -129,3 +129,121 @@ O orçamento do projeto foi avaliado através da estimativa de 330 horas de trab
 |Rede| R$ 1.050,00 |
 |Custos Totais| R$ 36.750,00|
 
+Plano de Testes de Software  
+
+  
+
+Os requisitos para realização dos testes de software são:  
+
+  
+
+Aplicação postada na PlayStore / AppStore e versão Web. 
+
+Navegador da Internet - Chrome, Firefox ou Edge  
+
+Conectividade de Internet para acesso às plataformas (APISs)  
+ 
+  
+ 
+Os testes funcionais a serem realizados no aplicativo são descritos a seguir:  
+ 
+  
+
+Caso de Teste  
+
+CT-01 - Compatibilidade com vários navegadores e aparelhos celulares 
+
+Requisitos Associados  
+
+RNF-04 - O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) e smartphones ( Samsung, Iphone, Motorola) 
+
+Objetivo do Teste  
+
+Verificar se o site é compatível com no mínimo três navegadores diferentes.  
+
+Passos   
+
+Acessar o navegador / aplicativo 
+
+Visualizar o menu principal  
+
+Critérios de Êxito  
+
+•  
+
+ 
+
+A página inicial deve abrir igualmente em todos os navegadores e smartphones testado 
+
+ 
+
+Deve carregar as demais informações igualmente  
+
+  
+
+Caso de Teste  
+
+CT-02 - Teste do Menu de Funcionalidade distinto para cada perfil  
+
+Requisitos Associados  
+
+RF-03- Menu de função distinto para cada perfil   
+
+Objetivo do Teste  
+
+Verificar se o menu de funções está distinto para cada perfil (Garçom, Gerente e Cozinha)  
+
+Passos   
+
+Acessar a Plataforma OhChefia  
+
+Fazer login com o Perfil desejado  
+
+Verificar o menu de funções disponibilizado na tela  
+
+Critérios de Êxito  
+
+Cada perfil deve ter o menu de funcionalidade distinto dos demais  
+
+Os menus devem estar de acordo com o Template da Aplicação 
+
+  
+
+Plano de Testes de Usabilidade  
+
+  
+
+O planejamento dos testes de usabilidade a serem realizados com usuários são descritos na  
+
+Tabela 	a 	seguir:  
+
+  
+
+Atividade  
+
+Tarefa  
+
+Preparação  
+
+Identificação dos usuários e seus perfis  
+
+Dividir as funções de cada um do grupo  
+
+Executar um teste de funcionalidade  
+
+Coleta de Dados  
+
+• Registrar a opinião dos usuários por meio de um formulário  
+
+Interpretação  
+
+• Unir os dados, contabilizar e resumir as informações dos usuários.  
+
+Consolidação dos Resultados  
+
+Relato dos Resultados  
+
+• Coletar todas as informações sobre o uso da plataforma e realizar as alterações necessárias 
+
+
+
