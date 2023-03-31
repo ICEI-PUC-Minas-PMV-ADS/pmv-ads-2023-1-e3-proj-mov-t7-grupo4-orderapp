@@ -35,10 +35,6 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Rel
 
 Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do banco de dados. Este arquivo deverá ser incluído dentro da pasta src\bd.
 
-## Modelagem BPMN
-
-![Arquitetura da Solução](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t7-grupo4-orderapp/main/docs/img/OrderApp%20Diagrama.png)
-
 ## Tecnologias Utilizadas
 
 Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
