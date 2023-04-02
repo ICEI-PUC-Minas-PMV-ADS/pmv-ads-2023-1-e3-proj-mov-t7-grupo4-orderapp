@@ -34,7 +34,16 @@ Link: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t7-gr
 
 Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+|Função    | Tecnologia  | 
+|------------|-----------------------------------------|
+| Linguagem Front - End| JavaScript | 
+| Framework | ReactNative, Bootstrap |
+| Linguagem Back - End | C# | 
+| Bibliotecas | React Native Paper, React Navigation, Json server, Json server auth, Axios | 
+| IDE | Visual Studio Code | 
+| Ferramentas | Microsoft Teams, GitHub, Whatsapp | 
+| Banco de dados | MySQL | 
+| Criação de Protótipo | Figma |
 
 ## Hospedagem
 
