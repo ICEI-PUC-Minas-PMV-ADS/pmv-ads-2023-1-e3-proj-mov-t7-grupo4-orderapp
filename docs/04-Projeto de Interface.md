@@ -22,8 +22,6 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 ![My First Board (2)](https://user-images.githubusercontent.com/53317747/229385178-4758364f-233f-474c-99c6-85b7afa3c4d9.jpg)
 
 
-![Exemplo de Diagrama de Fluxo](img/diagramafluxo2.jpg)
-
 As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas de Fluxo”.
 
 > **Links Úteis**:
