@@ -6,7 +6,15 @@ A metodologia contempla as definições de ferramental utilizado pela equipe tan
 ## Relação de Ambientes de Trabalho
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito deverá ser apresentada em uma tabela que especifica que detalha Ambiente, Plataforma e Link de Acesso. 
-Nota: Vide documento modelo do estudo de caso "Portal de Notícias" e defina também os ambientes e frameworks que serão utilizados no desenvolvimento de aplicações móveis.
+
+
+| Ambiente | Plataforma | Link de Acesso |
+| ----------------------------| ------------- | ---------------------------------------------------------------------- |
+| Repositório de código fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t7-grupo4-orderapp |
+| Documentos do projeto | Office 365 | https://sgapucminasbr-my.sharepoint.com/:w:/r/personal/1242997_sga_pucminas_br/_layouts/15/Doc.aspx?sourcedoc=%7Bbd1d0ef3-40b9-4370-a5fa-e49c31387d76%7D&action=edit&wdPreviousSession=1ecc00a3-8e80-432e-a0f9-90c6c84ee74e&cid=04bbbbbb-0ea9-4f59-98e1-2116a11dfe2c |
+| Projeto de Interface e  Wireframes | Figma | https://www.figma.com/file/k5cxjISmNT5XHWED1a6pT5/OhChefia?node-id=3-488 |
+| Gerenciamento do Projeto | GitHub Projects | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t7-grupo4-orderapp/projects?query=is%3Aopen |
+
 
 ## Controle de Versão
 
