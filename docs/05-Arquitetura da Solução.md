@@ -36,14 +36,14 @@ Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, 
 
 |Função    | Tecnologia  | 
 |------------|-----------------------------------------|
+| Criação de Protótipo | Figma |
 | Linguagem Front - End| JavaScript | 
 | Framework | ReactNative, Bootstrap |
 | Linguagem Back - End | C# | 
 | Bibliotecas | React Native Paper, React Navigation, Json server, Json server auth, Axios | 
+| Ferramentas | Microsoft Teams, GitHub, Discord |
 | IDE | Visual Studio Code | 
-| Ferramentas | Microsoft Teams, GitHub, Whatsapp | 
-| Banco de dados | MySQL | 
-| Criação de Protótipo | Figma |
+| Banco de dados | SQL Server | 
 
 ## Hospedagem
 
