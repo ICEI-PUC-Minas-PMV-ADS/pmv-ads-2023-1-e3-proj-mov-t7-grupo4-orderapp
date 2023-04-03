@@ -6,7 +6,7 @@
 
 `TERCEIRO SEMESTRE`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Oh Chefia, um applicativo para gerenciar os pedidos dos bares e restaurantes de maneira rápida e fácil, sem transtornos para o garçom ou para o cliente.
 
 ## Integrantes
 
