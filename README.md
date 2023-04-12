@@ -6,7 +6,7 @@
 
 `TERCEIRO SEMESTRE`
 
-Um applicativo para gerenciar os pedidos dos bares e restaurantes de maneira rápida e fácil, sem transtornos para o garçom ou para o cliente. Com o Oh Chefia, o garçom já não utiliza de papel e caneta para anotar os pedidos de cada cliente, cada pedido é separado por mesa e por comanda dentro do próprio aplicativo. Onde ali é listado de maneira fácil e inteligente tudo o que o cliente já consumiu, o valor da conta, o tempo em que ele se encontra no estabelecimento, e todos os pedidos do cliente vão direto para um monitor na cozinha, onde imediatamente esse pedido já entra na fila de espera de preparo, diminuindo tempo e agilizando o processo junto ao garçom.
+Um aplicativo para gerenciar os pedidos dos bares e restaurantes de maneira rápida e fácil, sem transtornos para o garçom ou para o cliente. Com o Oh Chefia, o garçom já não utiliza de papel e caneta para anotar os pedidos de cada cliente, cada pedido é separado por mesa e por comanda dentro do próprio aplicativo. Onde ali é listado de maneira fácil e inteligente tudo o que o cliente já consumiu, o valor da conta, o tempo em que ele se encontra no estabelecimento, e todos os pedidos do cliente vão direto para um monitor na cozinha, onde imediatamente esse pedido já entra na fila de espera de preparo, diminuindo tempo e agilizando o processo junto ao garçom.
 
 ## Integrantes
 
