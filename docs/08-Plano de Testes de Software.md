@@ -1,19 +1,33 @@
-# Plano de Testes de Software
+# Plano de Testes de Software  
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+  
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
+Os requisitos para realização dos testes de software são:  
 
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
+  
+
+> - Aplicação postada na PlayStore / AppStore e versão Web. 
+> - Navegador da Internet - Chrome, Firefox ou Edge  
+> - Conectividade de Internet para acesso às plataformas (APISs)  
  
-## Ferramentas de Testes (Opcional)
-
-Comente sobre as ferramentas de testes utilizadas.
+  
  
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+Os testes funcionais a serem realizados no aplicativo são descritos a seguir:  
+ 
+  
+| Caso de Teste           | CT-01 - Compatibilidade com vários navegadores e aparelhos celulares                                                                   |
+|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+|Requisitos Associados    | RNF-04 - O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) e smartphones (Samsung, Iphone, Motorola)             | 
+|Objetivo do Teste        | Verificar se o site é compatível com no mínimo três navegadores diferentes.                                                            | 
+|Passos                   | Acessar o navegador / aplicativo   Visualizar o menu principal                                                                         |
+|Critérios de Êxito       | A página inicial deve abrir igualmente em todos os navegadores e smartphones testado / Deve carregar as demais informações igualmente  |
+
+
+| Caso de Teste           | CT-02 - Teste do Menu de Funcionalidade distinto para cada perfil                                                                |
+|-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
+|Requisitos Associados    | RF-03- Menu de função distinto para cada perfil                                                                                  | 
+|Objetivo do Teste        | Verificar se o menu de funções está distinto para cada perfil (Garçom, Gerente e Cozinha)                                        | 
+|Passos                   | Acessar a Plataforma OhChefia / Fazer login com o Perfil desejado / Verificar o menu de funções disponibilizado na tela          |
+|Critérios de Êxito       | Cada perfil deve ter o menu de funcionalidade distinto dos demais / Os menus devem estar de acordo com o Template da Aplicação   |
+
+  
