@@ -28,3 +28,10 @@ Consistente — o ícone corresponde ao conceito estilístico geral do layout pa
 
 Segue abaixo os ícones e botões utilizados no desenvolvimento do aplicativo:
 
+- Logo Tipo (Identidade Visual)
+
+- 'Adicionar Item'
+![image]https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t7-grupo4-orderapp/main/docs/img/bot%C3%A3o%20adc%20item.png
+
+
+
