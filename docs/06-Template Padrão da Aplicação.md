@@ -34,42 +34,42 @@ Segue abaixo os ícones e botões utilizados no desenvolvimento do aplicativo:
 - 'Adicionar Item'
 ![botão adc item](https://user-images.githubusercontent.com/59944150/236719479-a07ecdac-452a-40e8-9970-2400414ae7df.png)
 
- Botão “EDITAR” 
+- Botão “EDITAR” 
 ![botao editar](https://user-images.githubusercontent.com/59944150/236719716-dfcf0e40-a528-4502-af98-3cc1e8cf64a3.png)
 
 
- Botão “SALVAR” 
+ - Botão “SALVAR” 
 ![botao salvar](https://user-images.githubusercontent.com/59944150/236719742-86b72da2-34ce-4577-91f3-974140250247.png)
 
 
- Botão “EXCLUIR”
+ - Botão “EXCLUIR”
 ![botao excluir](https://user-images.githubusercontent.com/59944150/236720118-cf071942-ce84-4e27-9060-adf069f2f044.png)
 
 
 
- Botão “CADASTRAR”
+ - Botão “CADASTRAR”
  ![botao cadastrar](https://user-images.githubusercontent.com/59944150/236719766-d64cc41c-b226-4432-ae4d-2c3371aa4f96.png)
 
 
- Botão “LISTA DE GARÇONS”  
+ - Botão “LISTA DE GARÇONS”  
  ![botao lista de garçons](https://user-images.githubusercontent.com/59944150/236719775-8fa50131-065a-46c6-97f1-975860cdb0b8.png)
 
 
- Botão “FECHAR PEDIDO” 
+ - Botão “FECHAR PEDIDO” 
  ![botao fechar pedido](https://user-images.githubusercontent.com/59944150/236719790-9c809368-e007-4223-b44b-c28567075885.png)
 
- Botão “SIM” 
+ - Botão “SIM” 
  ![botao sim](https://user-images.githubusercontent.com/59944150/236719866-54692822-108a-4e65-a6d5-1b6181e8b88f.png)
 
 
- Botão “VOLTAR” 
+ - Botão “VOLTAR” 
  ![botao voltar](https://user-images.githubusercontent.com/59944150/236719878-67eab441-c0dc-4e3f-afc2-16ad822b5d52.png)
 
 
- Botão “MESAS” 
+ - Botão “MESAS” 
  ![botao mesa](https://user-images.githubusercontent.com/59944150/236719884-fc726fc3-7a8b-4904-bb75-01246d455318.png)
  
- Botão "PERFIL" 
+ - Botão "PERFIL" 
  ![botao perfil](https://user-images.githubusercontent.com/59944150/236719917-15650e00-38cc-4a92-b5b0-cb03f8a231ee.png)
 
 
