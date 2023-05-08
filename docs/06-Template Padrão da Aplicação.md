@@ -43,7 +43,8 @@ Segue abaixo os ícones e botões utilizados no desenvolvimento do aplicativo:
 
 
  Botão “EXCLUIR”
-![botao excluir](https://user-images.githubusercontent.com/59944150/236719758-ed072cfb-80b8-4361-   806e-c8682b090178.png)
+![botao excluir](https://user-images.githubusercontent.com/59944150/236720118-cf071942-ce84-4e27-9060-adf069f2f044.png)
+
 
 
  Botão “CADASTRAR”
