@@ -72,6 +72,17 @@ Segue abaixo os ícones e botões utilizados no desenvolvimento do aplicativo:
  - Botão "PERFIL" 
  ![botao perfil](https://user-images.githubusercontent.com/59944150/236719917-15650e00-38cc-4a92-b5b0-cb03f8a231ee.png)
 
+Fontes 
+
+Para as fontes utilizamos fontes do padrão Google Style, que são padrões de desenvolvimento e design utilizado pelo Google, em aplicativos, sites e produtos da marca Alphabet. Aqui nesta URL tem um material disponível sobre o assunto https://developers.google.com/style. 
+
+
+Paleta de Cores 
+
+Para a paleta de cores decidimos usar cores chamativas, mas ao tempo clean ao olhar do usuário, dentro da logo do app utilizamos como base o azul e o roxo. Com tudo todos os botões e telas do aplicativo são variações desses tons, conforme paleta abaixo: 
+
+ 
+
 
 
  
