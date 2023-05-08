@@ -76,10 +76,17 @@ Fontes
 
 Para as fontes utilizamos fontes do padrão Google Style, que são padrões de desenvolvimento e design utilizado pelo Google, em aplicativos, sites e produtos da marca Alphabet. Aqui nesta URL tem um material disponível sobre o assunto https://developers.google.com/style. 
 
+![fontes](https://user-images.githubusercontent.com/59944150/236720566-c1de7af5-f95a-4936-8467-a8a8581545c0.png)
+
+
+
 
 Paleta de Cores 
 
 Para a paleta de cores decidimos usar cores chamativas, mas ao tempo clean ao olhar do usuário, dentro da logo do app utilizamos como base o azul e o roxo. Com tudo todos os botões e telas do aplicativo são variações desses tons, conforme paleta abaixo: 
+
+![paleta de cores](https://user-images.githubusercontent.com/59944150/236720579-e6f6957a-1231-4d06-94a2-607717c97445.png)
+
 
  
 
