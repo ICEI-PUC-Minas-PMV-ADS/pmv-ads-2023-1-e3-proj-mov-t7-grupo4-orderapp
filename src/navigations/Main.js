@@ -5,6 +5,9 @@ import Login from '../pages/Login';
 import Home from '../pages/Home';
 import AdicionaItem from '../pages/AdicionaItem';
 import AdicionaMesa from '../pages/AdicionaMesa';
+import AdicionaCardapio from '../pages/cardapio/AdicionaCardapio';
+import EditaCardapio from '../pages/cardapio/EditaCardapio';
+import Cardapio from '../pages/Cardapio';
 
 const Stack = createNativeStackNavigator();
 
@@ -35,6 +38,27 @@ const Main = () => {
       <Stack.Screen
         name="AdicionaMesa"
         component={AdicionaMesa}
+        options={{
+          header: () => null,
+        }}
+      />
+      <Stack.Screen
+        name="Cardapio"
+        component={Cardapio}
+        options={{
+          header: () => null,
+        }}
+      />
+      <Stack.Screen
+        name="AdicionaCardapio"
+        component={AdicionaCardapio}
+        options={{
+          header: () => null,
+        }}
+      />
+      <Stack.Screen
+        name="EditaCardapio"
+        component={EditaCardapio}
         options={{
           header: () => null,
         }}

@@ -5,6 +5,7 @@ import { Text, BottomNavigation } from 'react-native-paper';
 
 import Mesa from './Mesas';
 import Pedidos from './PedidoMesa';
+import Cardapio from './Cardapio';
 
 
 const Home = () => {
@@ -12,11 +13,13 @@ const Home = () => {
   const [routes] = React.useState([
     { key: 'mesas', title: 'Mesas', icon: 'food-fork-drink'},
     { key: 'pedidos', title: 'Pedidos', icon: 'clipboard-list-outline'},
+    { key: 'cardapio', title: 'Cardápio', icon: 'map-outline' }
   ]);
 
   const renderScene = BottomNavigation.SceneMap({
     mesas: Mesa,
-    pedidos:Pedidos
+    pedidos:Pedidos,
+    cardapio:Cardapio
   });
 
   return (
