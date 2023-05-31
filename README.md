@@ -2,7 +2,7 @@
 
 `ANÁLISE E DESENVOLVIMENTO DE SOFTWARE`
 
-`Desenvolvimento de uma Aplicação Móvel em um Ambiente de Negócio`
+`DESENVOLVIMENTO DE UMA APLICAÇÃO MÓVEL EM UM AMBIENTE DE NEGÓCIO`
 
 `TERCEIRO SEMESTRE`
 
