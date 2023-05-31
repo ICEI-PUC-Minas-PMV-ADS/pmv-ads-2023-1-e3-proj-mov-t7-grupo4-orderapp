@@ -1,123 +1,79 @@
-import React, { useState } from "react";
-import {
-  View,
-  Text,
-  Image,
-  StyleSheet,
-  TextInput,
-  Pressab,
-} from "react-native";
-import { Button } from "react-native-paper";
+import React from 'react'
+import {View, Text, Image, StyleSheet, TextInput, Button, Pressab} from 'react-native'
 
-import { useNavigation } from "@react-navigation/native";
-import LoginFormInput from "../components/loginFormInput";
+import {useNavigation} from '@react-navigation/native';
 
 const Login = () => {
   const navigation = useNavigation();
-  const [login, setLogin] = useState();
-  const [senha, setSenha] = useState();
+  
+  return(
 
-  return (
-    <View style={{ flexDirection: "column" }}>
+    <View style={{ flexDirection: 'column'}}>
       <View style={styles.css}>
-        <Text style={styles.saudacao}>Bem Vindo</Text>
+        <Text>Seja Bem-Vindo ao</Text>
       </View>
-
-      <View style={styles.image}>
-        <Image
-          source={require("../images/Logo_OhChefia.png")}
-          style={styles.logo}
+      
+      <View style={styles.image}> 
+        <Image source={require('../images/Logo_OhChefia.png')} 
+        style={{width: 155, height: 100}}
         />
       </View>
 
       <View style={styles.inputs}>
-        <LoginFormInput
-          value={login}
-          setValue={setLogin}
-          formPlaceholder="Usuário"
+        <TextInput
+          style={styles.input_login}
+          placeholder="Login"
         />
-        <LoginFormInput
-          value={senha}
-          setValue={setSenha}
-          formPlaceholder="Senha"
+        <TextInput
+          style={styles.input_password}
+          placeholder="Password"
         />
       </View>
 
       <View style={styles.buttonlogin}>
-        <Button
-          mode="contained"
-          onPress={() => navigation.navigate("Home")}
-          style={styles.entrarButton}
-        >
-        <Text
-            style={{ fontWeight: 700 }}
-        >
-          ENTRAR
-        </Text>
-        </Button>
+      <Button
+        title="ENTRAR"
+        color="#6c0a74"
+        onPress={() => navigation.navigate('Home')}
+      />
       </View>
       <View style={styles.forgotpassword}>
-        <Button mode="text">
-          <Text
-            style={{ color: "#5D2860", fontWeight: 700 }}
-          >
-            Esqueci minha senha
-          </Text>
-        </Button>
+        <Button
+        title="Esqueci minha senha"
+        />
       </View>
     </View>
+    
   );
-};
+}
 
 const styles = StyleSheet.create({
   css: {
-    alignItems: "center",
+    alignItems:'center',
     padding: 100,
-    paddingBottom: 50,
   },
-  saudacao: {
-    fontWeight: 700,
-    fontSize: "28px",
-    lineHeight: "33px",
-    color: "rgba(93, 40, 96, 1)",
-  },
-  logo: {
-    minWidth: "31vmax",
-    minHeight: "20vmax",
-    alignSelf: "center",
-    marginBottom: "10%",
-  },
-  image: {
-    alignItems: "center",
+  image:{
+    alignItems:'center',
     paddingBottom: 20,
   },
-  input_login: {
+  input_login:{
     height: 40,
     margin: 12,
     borderWidth: 1,
     padding: 10,
   },
-  input_password: {
+  input_password:{
     height: 40,
     margin: 12,
     borderWidth: 1,
     padding: 10,
   },
-  buttonlogin: {
+  buttonlogin:{
     padding: 30,
   },
-  entrarButton: {
-    backgroundColor: "#6c0a74",
-    marginHorizontal: "22vw",
-    marginVertical: "10px",
-    height: "50px",
-    justifyContent: "center",
-    borderRadius: "100px",
-    fontStyle: "normal",
-    fontWeight: 700,
-    fontSize: "16px",
+  forgotpassword:{
+    
   },
-  forgotpassword: {},
 });
 
 export default Login;

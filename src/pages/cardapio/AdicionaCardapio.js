@@ -1,117 +1,83 @@
-import React, { useState } from "react";
-import { Image, StyleSheet, View } from "react-native";
-import { Button } from "react-native-paper";
-
-import Header from "../../components/Header";
-import Container from "../../components/Container";
-import Body from "../../components/Body";
-
-import * as SQLite from "expo-sqlite";
-
-const db = SQLite.openDatabase("ohchefia.db");
-
-import { useNavigation } from "@react-navigation/native";
-import CadastroFormInput from "../../components/CadastroFormInput";
+import React, { useState } from 'react';
+import { Image, StyleSheet, View, TextInput } from 'react-native';
+import { Button } from 'react-native-paper';
 
 const AdicionaCardapio = () => {
-  const navigation = useNavigation();
-  const [categoria, setCategoria] = useState();
-  const [nome, setNome] = useState();
-  const [codigo, setCodigo] = useState();
-  const [descricao, setDescricao] = useState();
-
-  const [formValidateError, setFormValidateError] = useState({
-    categoria: false,
-    nome: false,
-    codigo: false,
-    descricao: false,
-  });
+  const [categoria, setCategoria] = useState('');
+  const [nome, setNome] = useState('');
+  const [codigo, setCodigo] = useState('');
+  const [descricao, setDescricao] = useState('');
 
   const handleSave = () => {
-    if (categoria && nome && codigo && descricao) {
-      // inserir aqui a logica de salvamento de item ao cardapio
-      return navigation.navigate("Cardapio");
-    }
-    setFormValidateError({
-      categoria: !!!categoria,
-      nome: !!!nome,
-      codigo: !!!codigo,
-      descricao: !!!descricao,
-    });
-    console.log(formValidateError);
+    // Lógica para salvar os dados
   };
 
   return (
-    <Container>
-      <Header title={"ADICIONAR ITEM"} />
-      <Body>
-        <View style={styles.adicionaCardapioWrapper}>
-          <Image
-            source={require("../../images/Logo_OhChefia.png")}
-            style={styles.logo}
-          />
-          <CadastroFormInput
-            value={categoria}
-            setValue={setCategoria}
-            formTitle="Categoria"
-            error={formValidateError.categoria}
-          />
-          <CadastroFormInput
-            value={nome}
-            setValue={setNome}
-            formTitle="Nome do item"
-            error={formValidateError.nome}
-          />
-          <CadastroFormInput
-            value={codigo}
-            setValue={setCodigo}
-            formTitle="Código"
-            error={formValidateError.codigo}
-          />
-          <CadastroFormInput
-            value={descricao}
-            setValue={setDescricao}
-            formTitle="Descrição"
-            error={formValidateError.descricao}
-          />
-          <Button
-            icon="content-save-outline"
-            mode="contained"
-            style={styles.saveButton}
-            onPress={handleSave}
-          >
-            SALVAR
-          </Button>
-        </View>
-      </Body>
-    </Container>
+    <View style={styles.container}>
+      <Image
+        source={require('../../images/Logo_OhChefia.png')}
+        style={styles.logo}
+      />
+      <TextInput
+        value={categoria}
+        onChangeText={setCategoria}
+        style={styles.input}
+        placeholder="Categoria"
+      />
+      <TextInput
+        value={nome}
+        onChangeText={setNome}
+        style={styles.input}
+        placeholder="Nome do item"
+      />
+      <TextInput
+        value={codigo}
+        onChangeText={setCodigo}
+        style={styles.input}
+        placeholder="Código"
+      />
+      <TextInput
+        value={descricao}
+        onChangeText={setDescricao}
+        style={styles.input}
+        placeholder="Descrição"
+      />
+      <Button
+        icon="content-save-outline"
+        mode="contained"
+        style={styles.saveButton}
+        onPress={handleSave}>
+        SALVAR
+      </Button>
+    </View>
   );
 };
 
 const styles = StyleSheet.create({
-  adicionaCardapioWrapper: {
-    display: "flex",
-    height: "100%",
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: 16,
   },
   logo: {
-    minWidth: "31vmax",
-    minHeight: "20vmax",
-    alignSelf: "center",
-    marginTop: "15%",
-    marginBottom: "10%",
+    width: 200,
+    height: 200,
+    marginBottom: 32,
+  },
+  input: {
+    width: '100%',
+    height: 40,
+    marginBottom: 16,
+    paddingHorizontal: 8,
+    borderWidth: 1,
+    borderColor: 'gray',
+    borderRadius: 4,
   },
   saveButton: {
-    marginTop: "auto",
-    marginBottom: "2%",
-    marginHorizontal: "12vw",
-    backgroundColor: "#311433",
-    height: "50px",
-    justifyContent: "center",
-    borderRadius: "100px",
-    fontStyle: "normal",
-    fontWeight: 700,
-    fontSize: "16px",
-    lineHeight: "19px",
+    width: '100%',
+    height: 40,
+    marginTop: 16,
   },
 });
 

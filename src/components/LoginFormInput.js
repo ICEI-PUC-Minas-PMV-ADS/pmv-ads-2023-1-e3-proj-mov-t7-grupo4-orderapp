@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { StyleSheet, TextInput, View } from "react-native";
+import React, { useState } from 'react';
+import { StyleSheet, TextInput, View } from 'react-native';
 
 const LoginFormInput = ({
   value,
@@ -37,30 +37,30 @@ const LoginFormInput = ({
 
 const styles = StyleSheet.create({
   formField: {
-    backgroundColor: "rgba(47, 103, 141, 0.35)",
-    marginHorizontal: "5px",
-    marginVertical: "1%",
-    height: "60px",
-    borderRadius: "100px",
-    display: "flex",
-    padding: "10px",
-    justifyContent: "center"
+    backgroundColor: 'rgba(47, 103, 141, 0.35)',
+    marginHorizontal: 5,
+    marginVertical: '1%',
+    height: 60,
+    borderRadius: 100,
+    display: 'flex',
+    padding: 10,
+    justifyContent: 'center',
   },
   formFieldFocus: {
-    backgroundColor: "rgba(47, 103, 141, 1)",
+    backgroundColor: 'rgba(47, 103, 141, 1)',
   },
   formFieldText: {
-    fontStyle: "normal",
-    fontWeight: 700,
-    fontSize: "14px",
-    lineHeight: "19px",
-    color: "white",
-    width: "100%",
-    marginHorizontal: "10px",
+    fontStyle: 'normal',
+    fontWeight: '700',
+    fontSize: 14,
+    lineHeight: 19,
+    color: 'white',
+    width: '100%',
+    marginHorizontal: 10,
   },
   formFieldErrorState: {
-    borderWidth: "2px",
-    borderColor: "rgba(255,0,0,0.6)",
+    borderWidth: 2,
+    borderColor: 'rgba(255, 0, 0, 0.6)',
   },
 });
 

@@ -45,7 +45,6 @@ const styles = StyleSheet.create({
     display: 'inline-flex',
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'flex-start',
     padding: '10px',
   },
   formFieldFocus: {
