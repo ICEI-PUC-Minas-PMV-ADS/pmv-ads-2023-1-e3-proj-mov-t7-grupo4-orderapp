@@ -39,7 +39,8 @@ const Login = () => {
       </View>
       <View style={styles.forgotpassword}>
         <Button
-        title="Esqueci minha senha"
+        title="Cadastrar Garçom"
+        onPress={() => navigation.navigate('Cadastro')}
         />
       </View>
     </View>
