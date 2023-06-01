@@ -5,6 +5,7 @@ import { BottomNavigation } from 'react-native-paper';
 import Cardapio from './Cardapio';
 import Mesa from './Mesas';
 import Pedidos from './PedidoMesa';
+import StatusPedidoMesa from './StatusPedidoMesa';
 
 
 const Home = () => {
