@@ -12,7 +12,7 @@ const Home = () => {
   const [routes] = React.useState([
     { key: 'mesas', title: 'Mesas', icon: 'food-fork-drink' },
     { key: 'pedidos', title: 'Pedidos', icon: 'clipboard-list-outline' },
-    { key: 'cardapio', title: 'Cardápio', icon: 'map-outline' }
+    { key: 'cardapio', title: 'Cardápio', icon: 'map-outline' },
     { key: 'status', title: 'Status', icon: 'menu' }
 
   ]);
