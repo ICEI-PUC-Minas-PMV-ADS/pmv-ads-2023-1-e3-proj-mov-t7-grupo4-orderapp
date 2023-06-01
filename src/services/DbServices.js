@@ -2,7 +2,6 @@ import * as SQLite from 'expo-sqlite';
 
 export const Database = {
   getConnection: () => {
-    
     const db = SQLite.openDatabase('ohchefia.db');
 
     db.transaction((tx) => {
@@ -12,8 +11,8 @@ export const Database = {
     });
 
     db.transaction((tx) => {
-      tx.executeSql(
-        'create table if not exists pedidos (id integer primary key not null, nummesa int not null, itemMesa text not null, preco real not null, quantidade int not null);'
+      // trunk-ignore(git-diff-check/error)
+      tx.executeSql('create table if not exists pedidos (id integer primary key not null, nummesa int not null, itemMesa text not null, preco real not null, quantidade int not null, status text);'
       );
     });
 

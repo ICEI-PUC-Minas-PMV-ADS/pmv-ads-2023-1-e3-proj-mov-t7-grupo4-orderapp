@@ -5,14 +5,14 @@ import { BottomNavigation } from 'react-native-paper';
 import Cardapio from './Cardapio';
 import Mesa from './Mesas';
 import Pedidos from './PedidoMesa';
-
+import StatusPedidoMesa from './StatusPedidoMesa';
 
 const Home = () => {
   const [index, setIndex] = React.useState(0);
   const [routes] = React.useState([
     { key: 'mesas', title: 'Mesas', icon: 'food-fork-drink' },
     { key: 'pedidos', title: 'Pedidos', icon: 'clipboard-list-outline' },
-    { key: 'cardapio', title: 'Cardápio', icon: 'map-outline' }
+    { key: 'cardapio', title: 'Cardápio', icon: 'map-outline' },
     { key: 'status', title: 'Status', icon: 'menu' }
 
   ]);
