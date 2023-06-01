@@ -7,7 +7,6 @@ import Mesa from './Mesas';
 import Pedidos from './PedidoMesa';
 import StatusPedidoMesa from './StatusPedidoMesa';
 
-
 const Home = () => {
   const [index, setIndex] = React.useState(0);
   const [routes] = React.useState([
