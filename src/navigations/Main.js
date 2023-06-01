@@ -63,6 +63,13 @@ const Main = () => {
           header: () => null,
         }}
       />
+      <Stack.Screen
+        name="Cadastro"
+        component={Cadastro}
+        options={{
+          header: () => null,
+        }}
+      />
     </Stack.Navigator>
   );
 };
