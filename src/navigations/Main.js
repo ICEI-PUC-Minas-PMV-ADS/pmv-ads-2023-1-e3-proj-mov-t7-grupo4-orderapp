@@ -8,6 +8,7 @@ import AdicionaMesa from '../pages/AdicionaMesa';
 import AdicionaCardapio from '../pages/cardapio/AdicionaCardapio';
 import EditaCardapio from '../pages/cardapio/EditaCardapio';
 import Cardapio from '../pages/Cardapio';
+import Cadastro from '../pages/Cadastro';
 
 const Stack = createNativeStackNavigator();
 
