@@ -11,8 +11,12 @@ export const Database = {
     });
 
     db.transaction((tx) => {
-      // trunk-ignore(git-diff-check/error)
       tx.executeSql('create table if not exists pedidos (id integer primary key not null, nummesa int not null, itemMesa text not null, preco real not null, quantidade int not null, status text);'
+      );
+    });
+
+    db.transaction((tx) => {
+      tx.executeSql('create table if not exists itens (id integer primary key not null, nomeItem text not null, categoria text not null, preco real not null);'
       );
     });
 

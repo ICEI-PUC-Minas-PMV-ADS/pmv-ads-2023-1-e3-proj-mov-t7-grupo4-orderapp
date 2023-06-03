@@ -1,65 +1,75 @@
-import React from 'react';
-import { StyleSheet } from 'react-native';
+import React, { useEffect, useState } from 'react';
+import { Text, View, FlatList, StyleSheet} from 'react-native';
+import { List } from 'react-native-paper';
+import * as SQLite from 'expo-sqlite';
+import { useIsFocused } from '@react-navigation/native';
+import { useNavigation } from '@react-navigation/native';
 import { Button } from 'react-native-paper';
 
 import Header from '../components/Header';
 import Container from '../components/Container';
 import Body from '../components/Body';
-import CardapioList from '../components/CardapioList';
 
-import { useNavigation } from '@react-navigation/native';
+const db = SQLite.openDatabase('ohchefia.db');
+
 
 const Cardapio = () => {
+  const [categorias, setCategorias] = useState([]);
+  const [itens, setItens] = useState([]);
+  const isFocused = useIsFocused();
   const navigation = useNavigation();
 
-  const listaCardapio = [
-    {
-      title: 'Bebidas',
-      data: [
-        {
-          name: 'coquinha gelada',
-          price: 'R$8,80',
-          index: '01',
-          id: 'coquinhaGeladaId',
-        },
-        {
-          name: 'whisky com agua de coco',
-          price: 'R$19,99',
-          index: '02',
-          id: 'whiskyComAguaDeCocoId',
-        },
-      ],
-    },
-    {
-      title: 'Comida',
-      data: [
-        {
-          name: 'espetinho de carne',
-          price: 'R$3,50',
-          index: '01',
-          id: 'EspetinhoDeCarneId',
-        },
-        {
-          name: 'feijão tropeiro',
-          price: 'R$10,25',
-          index: '02',
-          id: 'feijãoTropeiroId',
-        },
-      ],
-    },
-  ];
+  useEffect(() => {
+    db.transaction((tx) => {
+      tx.executeSql(
+        'SELECT DISTINCT categoria FROM itens',
+        [],
+        (_, { rows }) => {
+          const categorias = rows._array.map((item) => item.categoria);
+          setCategorias(categorias);
+        }
+      );
+      tx.executeSql('SELECT * FROM itens', [], (_, { rows }) => {
+        const itens = rows._array;
+        setItens(itens);
+      });
+    });
+  }, [isFocused]);
+
+  const renderCategoria = (categoria) => (
+    <List.Accordion
+      key={categoria}
+      title={categoria}
+      id={categoria}
+      style={{ backgroundColor: '#fff' }}>
+      {itens.map(
+        (item) =>
+          item.categoria === categoria && (
+            <List.Item
+              key={item.id}
+              title={item.nomeItem}
+              description={`Preço: R$ ${item.preco}`}
+              onPress={() =>
+                navigation.navigate('AdicionaItem', {
+                  item: item,
+                })
+              }
+            />
+          )
+      )}
+    </List.Accordion>
+  );
 
   return (
     <Container>
       <Header title={'CARDÁPIO'} />
       <Body>
-        <CardapioList listaCardapio={listaCardapio} />
+        <View>{categorias.map((categoria) => renderCategoria(categoria))}</View>
         <Button
           icon="plus"
           mode="contained"
           style={styles.menuButtons}
-          onPress={() => navigation.navigate('AdicionaCardapio')}
-        >
+          onPress={() => navigation.navigate('AdicionaCardapio')}>
           ADICIONAR ITEM
         </Button>
         <Button
@@ -68,8 +78,7 @@ const Cardapio = () => {
           style={styles.menuButtons}
           onPress={() => {
             if (listaCardapio.length > 0) navigation.navigate('EditaCardapio');
-          }}
-        >
+          }}>
           EDITAR
         </Button>
       </Body>
