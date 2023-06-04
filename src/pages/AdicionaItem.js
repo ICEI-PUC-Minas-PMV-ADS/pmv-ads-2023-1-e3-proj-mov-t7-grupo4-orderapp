@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, StyleSheet, TouchableOpacity, Alert } from 'react-native';
+import { View, StyleSheet, Alert } from 'react-native';
 import {
   RadioButton,
   Text,
@@ -92,7 +92,7 @@ const AdicionaItem = ({ route }) => {
         const itens = rows._array.map((item) => ({
           label: item.nomeItem,
           value: item.nomeItem,
-          price: item.preco,
+          price: item.preco.toString(),
         }));
         setItemOptions(
           itens.length > 0
