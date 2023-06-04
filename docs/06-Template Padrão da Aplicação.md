@@ -29,17 +29,24 @@ Consistente — o ícone corresponde ao conceito estilístico geral do layout pa
 Segue abaixo os ícones e botões utilizados no desenvolvimento do aplicativo:
 
 - Logo Tipo (Identidade Visual)
+
+
 ![logotipo](https://user-images.githubusercontent.com/59944150/236719947-d0a1a5dd-ea14-4a3f-bc2c-c6464c3a907a.png)
+
 
 - 'Adicionar Item'
 ![botão adc item](https://user-images.githubusercontent.com/59944150/236719479-a07ecdac-452a-40e8-9970-2400414ae7df.png)
+
+
 
 - Botão “EDITAR” 
 ![botao editar](https://user-images.githubusercontent.com/59944150/236719716-dfcf0e40-a528-4502-af98-3cc1e8cf64a3.png)
 
 
+
  - Botão “SALVAR” 
 ![botao salvar](https://user-images.githubusercontent.com/59944150/236719742-86b72da2-34ce-4577-91f3-974140250247.png)
+
 
 
  - Botão “EXCLUIR”
@@ -58,6 +65,7 @@ Segue abaixo os ícones e botões utilizados no desenvolvimento do aplicativo:
  - Botão “FECHAR PEDIDO” 
  ![botao fechar pedido](https://user-images.githubusercontent.com/59944150/236719790-9c809368-e007-4223-b44b-c28567075885.png)
 
+
  - Botão “SIM” 
  ![botao sim](https://user-images.githubusercontent.com/59944150/236719866-54692822-108a-4e65-a6d5-1b6181e8b88f.png)
 
@@ -68,7 +76,8 @@ Segue abaixo os ícones e botões utilizados no desenvolvimento do aplicativo:
 
  - Botão “MESAS” 
  ![botao mesa](https://user-images.githubusercontent.com/59944150/236719884-fc726fc3-7a8b-4904-bb75-01246d455318.png)
- 
+
+
  - Botão "PERFIL" 
  ![botao perfil](https://user-images.githubusercontent.com/59944150/236719917-15650e00-38cc-4a92-b5b0-cb03f8a231ee.png)
 
