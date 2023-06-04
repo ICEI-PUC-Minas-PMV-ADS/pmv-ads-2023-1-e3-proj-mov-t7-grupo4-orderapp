@@ -45,7 +45,7 @@ const AdicionaCardapio = ({ route }) => {
   }, [item, sequenciaId]);
 
   const handleSalvar = () => {
-    if (categoria && nomeItem && codigo && parseInt(codigo)) {
+    if (categoria && nomeItem && codigo && parseInt(codigo) && preco) {
     insertItem({
         nomeItem: nomeItem,
         categoria: categoria,
