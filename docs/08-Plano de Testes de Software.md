@@ -6,7 +6,7 @@ Os requisitos para realização dos testes de software são:
 
   
 
-> - Aplicação postada na PlayStore / AppStore e versão Web. 
+> - Aplicação postada na PlayStore / AppStore 
 > - Navegador da Internet - Chrome, Firefox ou Edge  
 > - Conectividade de Internet para acesso às plataformas (APISs)  
  
@@ -15,7 +15,7 @@ Os requisitos para realização dos testes de software são:
 Os testes funcionais a serem realizados no aplicativo são descritos a seguir:  
  
   
-| Caso de Teste           | CT-01 - Compatibilidade com vários navegadores e aparelhos celulares                                                                   |
+| Caso de Teste           | CT-01 - Compatibilidade com Android e IOS.                                                                                             |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
 |Requisitos Associados    | RNF-04 - A aplicação deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) e smartphones (Samsung, Iphone, Motorola)             | 
 |Objetivo do Teste        | Verificar se o site é compatível com no mínimo três navegadores diferentes.                                                            | 
