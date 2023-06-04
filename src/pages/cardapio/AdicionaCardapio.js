@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, Image, StyleSheet, TouchableOpacity } from 'react-native';
+import { View, Image, StyleSheet, TouchableOpacity, Alert } from 'react-native';
 import {
   RadioButton,
   Text,
@@ -42,25 +42,34 @@ const AdicionaCardapio = ({ route }) => {
       setCategoria(item.pedidos[sequenciaId].categoria);
       setPreco(item.pedidos[sequenciaId].preco.toFixed(2));
     }
-  }, [item]);
+  }, [item, sequenciaId]);
 
   const handleSalvar = () => {
-    // if (item) {
-    //   updateItem({
-    //     codigo: codigo,
-    //     nomeItem: nomeItem,
-    //     categoria: categoria,
-    //     preco: preco,
-    //     id: item.pedidos[0].id,
-    //   }).then();
-    // } else {
-      insertItem({
+    if (categoria && nomeItem && codigo && parseInt(codigo)) {
+    insertItem({
         nomeItem: nomeItem,
         categoria: categoria,
         preco: preco,
       }).then();
-    //}
     navigation.goBack();
+    }
+    else {
+    const camposEmBranco = () => {
+      let campos = '';
+      campos = !codigo && !parseInt(codigo) ? campos + " código," : campos
+      campos = !nomeItem ? campos + " nome do item," : campos
+      campos = !categoria ? campos + " categoria," : campos
+      campos = !preco ? campos + " preço," : campos
+      return campos.slice(0, -1) + '.'
+    }
+    Alert.alert('Preenchimento Incompleto', `Por favor, preencha os campos em branco: ${camposEmBranco()}`, [
+      {
+        text: 'Cancelar Item',
+        onPress: () => navigation.goBack(),
+        style: 'cancel',
+      },
+      {text: 'Continuar Preenchimento'},
+    ])}
   };
 
   const handleExcluir = () => {
@@ -126,7 +135,7 @@ const styles = StyleSheet.create({
     padding: 16,
   },
   logo: {
-    width: 200,
+    width: 310,
     height: 200,
     marginBottom: 32,
   },

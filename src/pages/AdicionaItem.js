@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, StyleSheet, TouchableOpacity } from 'react-native';
+import { View, StyleSheet, Alert } from 'react-native';
 import {
   RadioButton,
   Text,
@@ -8,6 +8,7 @@ import {
   Appbar,
 } from 'react-native-paper';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import * as SQLite from 'expo-sqlite';
 
 import Header from '../components/Header';
 import Container from '../components/Container';
@@ -23,6 +24,8 @@ import {
 
 import { useNavigation } from '@react-navigation/native';
 
+const db = SQLite.openDatabase('ohchefia.db');
+
 const AdicionaItem = ({ route }) => {
   const navigation = useNavigation();
   const { item, sequencia } = route.params ? route.params : {};
@@ -32,6 +35,7 @@ const AdicionaItem = ({ route }) => {
   const [itemMesa, setItem] = useState(null);
   const [preco, setPreco] = useState(null);
   const [quantidade, setQuant] = useState(null);
+  const [itemOptions, setItemOptions] = useState([]);
 
   sequenciaId = sequencia - 1;
 
@@ -52,14 +56,26 @@ const AdicionaItem = ({ route }) => {
         preco: preco,
         quantidade: quantidade,
         id: item.pedidos[0].id,
-      }).then();
+      }).then().catch(() =>     
+      Alert.alert('Houve um erro', 'Desculpe, mas não conseguimos atualizar o seu pedido', [
+      {
+        text: 'Voltar',
+        style: 'cancel',
+      }
+    ]));
     } else {
       insertPedido({
         nummesa: nummesa,
         itemMesa: itemMesa,
         preco: preco,
         quantidade: quantidade,
-      }).then();
+      }).then().catch(() =>     
+      Alert.alert('Houve um erro', 'Desculpe, mas não conseguimos criar o seu pedido', [
+      {
+        text: 'Voltar',
+        style: 'cancel',
+      }
+    ]));
     }
 
     navigation.goBack();
@@ -70,17 +86,22 @@ const AdicionaItem = ({ route }) => {
     navigation.goBack();
   };
 
-  const itemsList = [
-    { nome: 'Pizza' },
-    { nome: 'Coca-Cola' },
-    { nome: 'Mousse' },
-    // ... outros itens
-  ];
-
-  const itemOptions = itemsList.map((item) => ({
-    label: item.nome, // Supondo que o objeto do item tenha uma propriedade "nome"
-    value: item.nome, // Supondo que o objeto do item tenha uma propriedade "id"
-  }));
+  useEffect(() => {
+    db.transaction((tx) => {
+      tx.executeSql('SELECT * FROM itens', [], (_, { rows }) => {
+        const itens = rows._array.map((item) => ({
+          label: item.nomeItem,
+          value: item.nomeItem,
+          price: item.preco.toString(),
+        }));
+        setItemOptions(
+          itens.length > 0
+            ? itens
+            : [{ label: 'Não existem itens no cardápio', value: null, price: null }]
+        );
+      });
+    });
+  }, []);
 
   return (
     <Container>
@@ -107,7 +128,10 @@ const AdicionaItem = ({ route }) => {
               value: null,
             }}
             value={itemMesa}
-            onValueChange={(value) => setItem(value)}
+            onValueChange={(value) => {
+              setItem(value);
+              setPreco(itemOptions.find((option) => value === option.value)?.price || null)
+              }}
             items={itemOptions}
             style={{
               ...pickerSelectStyles,
