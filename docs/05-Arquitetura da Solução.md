@@ -6,9 +6,9 @@ Definição de como o software é estruturado em termos dos componentes que faze
 ## Modelo ER
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
-
-<img width="494" alt="image" src="https://user-images.githubusercontent.com/60409021/229384691-0127c1d6-ccf4-4d59-84d6-ba85610f2699.png" align="middle">
-
+<center>
+<img width="494" alt="image" src="https://user-images.githubusercontent.com/60409021/229384691-0127c1d6-ccf4-4d59-84d6-ba85610f2699.png">
+</center>
 
 ## Esquema Relacional
 
