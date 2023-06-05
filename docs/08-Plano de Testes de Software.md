@@ -26,7 +26,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir:
 | Caso de Teste           | CT-02 - Teste do Menu de Funcionalidade distinto para cada perfil                                                                |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 |Requisitos Associados    | RF-03- Menu de função distinto para cada perfil                                                                                  | 
-|Objetivo do Teste        | Verificar se o menu de funções está distinto para cada perfil (Garçom, Gerente e Cozinha)                                        | 
+|Objetivo do Teste        | Verificar se o menu de funções está distinto para cada perfil (Garçom, Gerente e Cliente)                                        | 
 |Passos                   | Acessar a Plataforma OhChefia / Fazer login com o Perfil desejado / Verificar o menu de funções disponibilizado na tela          |
 |Critérios de Êxito       | Cada perfil deve ter o menu de funcionalidade distinto dos demais / Os menus devem estar de acordo com o Template da Aplicação   |
 
