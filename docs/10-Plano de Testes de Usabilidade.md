@@ -51,7 +51,7 @@ Cada persona usuária do aplicativo receberá seu próprio roteiro de atividades
 | 7 | Exclua uma mesa  |
 | 8 | Exclua um item do menu  |
 
-|Roteiro de Atividades do Gerente||
+|Roteiro de Atividades do Cliente||
 |-------------------------------|-|
 |Atividade|Ação|
 | 1 | Visualize uma comandas |
