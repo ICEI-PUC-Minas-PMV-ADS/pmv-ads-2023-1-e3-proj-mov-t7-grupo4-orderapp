@@ -11,7 +11,7 @@ O teste de usabilidade permite avaliar a qualidade da interface com o usuário d
 
 ## 2 Participantes  
 
- Para a realização dos testes de usabilidade 10 participantes, de diferentes faixas etárias e profissões serão selecionados  
+ Para a realização dos testes de usabilidade, 10 participantes de diferentes faixas etárias e profissões serão selecionados  
 
 ## 3 Processo 
 
