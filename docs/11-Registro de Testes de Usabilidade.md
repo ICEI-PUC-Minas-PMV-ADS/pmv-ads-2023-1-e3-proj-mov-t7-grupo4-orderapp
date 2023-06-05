@@ -9,7 +9,7 @@ Verificar a compreensão dos participantes na execução das solicitações da a
 Avaliar a satisfação dos participantes sobre a aplicação; 
 
 Participantes: 
-Para a realização dos testes de usabilidade, 10 participantes de diferentes faixas etárias e profissões serão selecionados 
+Para a realização dos testes de usabilidade, 11 participantes de diferentes faixas etárias e profissões serão selecionados 
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t7-grupo4-orderapp/assets/59944150/ec42b6e2-b5bd-43b5-be3b-55d2dc503a26)
 
@@ -45,7 +45,7 @@ Erros Apresentados
 
 O sistema de um modo geral, apresentou poucos erros de usabilidade, abaixo seguem telas reportadas ao usuário de erros de uso:  
 
-Erro 1 - “Preenchimento Incompleto” - Quando o usuário tentar adicionar um item, e na tela de prrenchimento estiver algum dado incompleto, o aplicativo retorna um erro informando ao usuário quais campos estão em branco, oferecendo opção de continuar, ou cancelar o cadastro de um novo item. (Ver imagem abaixo)
+Erro 1 - “Preenchimento Incompleto” - Quando o usuário tentar adicionar um item, e na tela de preenchimento estiver algum dado incompleto, o aplicativo retorna um erro informando ao usuário quais campos estão em branco, oferecendo opção de continuar, ou cancelar o cadastro de um novo item. (Ver imagem abaixo)
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t7-grupo4-orderapp/assets/59944150/9b0a8199-20b1-448e-bc01-e546b4a2d604)
 
