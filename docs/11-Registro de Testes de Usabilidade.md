@@ -47,7 +47,7 @@ O sistema de um modo geral, apresentou poucos erros de usabilidade, abaixo segue
 
 Erro 1 - “Preenchimento Incompleto” - Quando o usuário tentar adicionar um item, e na tela de prrenchimento estiver algum dado incompleto, o aplicativo retorna um erro informando ao usuário quais campos estão em branco, oferecendo opção de continuar, ou cancelar o cadastro de um novo item. (Ver imagem abaixo)
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t7-grupo4-orderapp/assets/59944150/a7f0d55c-907d-4fd3-b5e6-90c204fc0e73)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t7-grupo4-orderapp/assets/59944150/e2e450d0-2639-46f0-84c4-a3d016dbf8d5)
 
 Erro 2 - “Preencha todos os campos na tela de Novo Garçom” - Ao tentar inserir um novo garçom no app, se o usuário não preencher todos os campos obrigatórios para um novo cadastro, o sistema retorna um erro informando para inserir todos os campos para continuar com o cadastro, conforme imagem abaixo: 
 
