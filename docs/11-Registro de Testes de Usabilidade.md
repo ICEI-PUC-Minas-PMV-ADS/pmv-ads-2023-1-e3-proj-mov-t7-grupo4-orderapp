@@ -31,6 +31,7 @@ Cada usuário do aplicativo recebeu seu próprio roteiro de atividades a ser rea
 As atividades refletem os requisitos funcionais e principais fluxos de uso do aplicativo para cada persona. Algumas atividades dependem e estão ligadas à uma atividade realizada por outro usuário, seguem dados obtidos: 
 
 Atividades do Garçom 
+| ---- | ----------------------------------------------------------------------------- |
 |Atividade|Ação|Erros|Acertos
 | 1 | Faça o login no aplicativo | 2% | 98% |
 | 2 | Inicie um Pedido | 2% | 98% |
