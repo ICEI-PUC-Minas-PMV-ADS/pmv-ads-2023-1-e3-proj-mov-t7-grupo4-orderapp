@@ -54,8 +54,8 @@ Cada persona usuária do aplicativo receberá seu próprio roteiro de atividades
 |Roteiro de Atividades do Cliente||
 |-------------------------------|-|
 |Atividade|Ação|
-| 1 | Visualize uma comandas |
-| 2 | Atualize o status da comanda   |
+| 1 | Acesse o cardápio via Qr Code |
+| 2 | Visualize o MENU disponibilizado pelo estabelecimento   |
 
 Cada participante deverá responder algumas perguntas, o objetivo é fazer um levantamento das funcionalidades mais fáceis e mais difíceis de serem usadas, além de localizar possíveis fragilidades de usabilidade no sistema. As perguntas devem ser contextualizadas de acordo com a ação realizada pelo participante da tarefa. 
 
