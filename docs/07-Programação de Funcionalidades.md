@@ -7,7 +7,5 @@ Implementação do sistema descritas por meio dos requisitos funcionais e/ou nã
 
 
 **RF-001|	A aplicação deverá permitir o cadastro de funcionários**
-[Cadastro.js]([https://pages.github.com/](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t7-grupo4-orderapp/blob/90a293938324c7c2201decba990304a426b6d083/src/pages/Cadastro.js)https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t7-grupo4-orderapp/blob/90a293938324c7c2201decba990304a426b6d083/src/pages/Cadastro.js)
-
-
+<a href="Cadastro.js">
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t7-grupo4-orderapp/assets/59944150/00a44f52-dddf-48bf-ab16-ea6cde168fec)
