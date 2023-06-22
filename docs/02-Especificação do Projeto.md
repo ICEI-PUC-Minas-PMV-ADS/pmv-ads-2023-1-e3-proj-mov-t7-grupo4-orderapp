@@ -39,17 +39,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deverá permitir o cadastro de funcionários  | ALTA | 
-|RF-002| A aplicação deverá permitir que o garçom realize a abertura do pedido de um cliente |ALTA |
-|RF-003|A aplicação deverá permitir que o garçom consiga atrelar o pedido do cliente a sua respectiva mesa| ALTA | 
-|RF-004| A aplicação deverá permitir o cadastro das opções de refeições que serão disponibilizadas no cardápio com fotos e preços | ALTA |
-|RF-005|A aplicação deverá permitir que o pedido seja finalizado | ALTA | 
-|RF-006|A aplicação deverá realizar o cálculo do valor do pedido do cliente | ALTA |
-|RF-007|A aplicação deverá informar o tempo de permanência do cliente no estabelecimento | MÉDIA | 
-|RF-008|A aplicação deverá permitir cadastramento das mesas | ALTA |
-|RF-009|A aplicação deverá permitir que o pedido seja visualizado pelo setor de Cozinha| ALTA | 
-|RF-010|A aplicação deverá permitir gerar QRCode para que o cliente possa acessar o cardápio| MÉDIA |
-|RF-011|A aplicação deverá informar o status do pedido na comanda   | ALTA |
+|RF-001| A aplicação deverá permitir que o usuário acesse o sistema com Nome de Usuário e Senha  | ALTA | 
+|RF-002| A aplicação deverá permitir o cadastro de funcionários  | ALTA | 
+|RF-003| A aplicação deverá permitir que o garçom realize a abertura do pedido de um cliente |ALTA |
+|RF-004|A aplicação deverá permitir que o garçom consiga atrelar o pedido do cliente a sua respectiva mesa| ALTA | 
+|RF-005| A aplicação deverá permitir o cadastro das opções de refeições que serão disponibilizadas no cardápio com fotos e preços | ALTA |
+|RF-006|A aplicação deverá permitir que o pedido seja finalizado | ALTA | 
+|RF-007|A aplicação deverá realizar o cálculo do valor do pedido do cliente | ALTA |
+|RF-008|A aplicação deverá informar o tempo de permanência do cliente no estabelecimento | MÉDIA | 
+|RF-009|A aplicação deverá permitir cadastramento das mesas | ALTA |
+|RF-010|A aplicação deverá permitir que o pedido seja visualizado pelo setor de Cozinha| ALTA | 
+|RF-011|A aplicação deverá permitir gerar QRCode para que o cliente possa acessar o cardápio| MÉDIA |
+|RF-012|A aplicação deverá informar o status do pedido na comanda   | ALTA |
 
 
 ### Requisitos não Funcionais
