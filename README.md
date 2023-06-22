@@ -13,9 +13,11 @@ Um aplicativo para gerenciar os pedidos dos bares e restaurantes de maneira ráp
 
 ## Integrantes
 
-| [<img src="https://avatars.githubusercontent.com/u/101225097?v=4" width=100><br><sub>Cesar Moreira </sub>](https://github.com/cesarluiscostam) | [<img src="https://avatars.githubusercontent.com/u/103225367?v=4" width=100><br><sub>Douglas Simoes </sub>](https://github.com/delarettdouglas) | [<img src="https://avatars.githubusercontent.com/u/53317747?v=4" width=100><br><sub>Pedro Oliveira</sub>](https://github.com/pedroertal) | [<img src="https://avatars.githubusercontent.com/u/60409021?v=4" width=100><br><sub>Karinne Pereira</sub>](https://github.com/KahMassensini) | 
-| :---: | :---: | :---: | :---: |
-[<img src="https://avatars.githubusercontent.com/u/103225907?v=4" width=100><br><sub>Rafael Oliveira</sub>](https://github.com/rafasensacional) | [<img src="https://avatars.githubusercontent.com/u/59944150?v=4" width=100><br><sub>Thais Bezerra</sub>](https://github.com/thatavieira) |  | [<img src="https://avatars.githubusercontent.com/u/86004024?v=4" width=100><br><sub>Vinicius Ponciano</sub>](https://github.com/Vinicius-S-P)
+| [<img src="https://avatars.githubusercontent.com/u/101225097?v=4" width=100><br><sub>Cesar Moreira </sub>](https://github.com/cesarluiscostam) | [<img src="https://avatars.githubusercontent.com/u/103225367?v=4" width=100><br><sub>Douglas Simoes </sub>](https://github.com/delarettdouglas) | [<img src="https://avatars.githubusercontent.com/u/53317747?v=4" width=100><br><sub>Pedro Oliveira</sub>](https://github.com/pedroertal) | [<img src="https://avatars.githubusercontent.com/u/60409021?v=4" width=100><br><sub>Karinne Pereira</sub>](https://github.com/KahMassensini) 
+| :----: | :----: | :----: | :----: |
+| [<img src="https://avatars.githubusercontent.com/u/103225907?v=4" width=100><br><sub>Rafael Oliveira</sub>](https://github.com/rafasensacional) | [<img src="https://avatars.githubusercontent.com/u/59944150?v=4" width=100><br><sub>Thais Bezerra</sub>](https://github.com/thatavieira) |  | [<img src="https://avatars.githubusercontent.com/u/86004024?v=4" width=100><br><sub>Vinicius Ponciano</sub>](https://github.com/Vinicius-S-P)
+| :----: | :----: | :----: | :----: |
+
 
 * César Luis Costa Moreira 
 * Douglas Delareti Simões 
