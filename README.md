@@ -1,6 +1,7 @@
- # Oh Chefia 
+ # Oh Chefia
 
-![img] (https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t7-grupo4-orderapp/main/docs/img/Logo_OhChefia.png)
+  <img width="150" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t7-grupo4-orderapp/assets/60409021/053474b7-cef9-4dcd-a5b8-18b47a08d6e4"> .
+  
 
 `CURSO: ANÁLISE E DESENVOLVIMENTO DE SOFTWARE`
 
