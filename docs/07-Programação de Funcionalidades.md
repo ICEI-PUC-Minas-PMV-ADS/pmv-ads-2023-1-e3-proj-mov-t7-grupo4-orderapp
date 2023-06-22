@@ -34,11 +34,9 @@ Implementação do sistema descritas por meio dos requisitos funcionais e/ou nã
 
 **RF-005| A aplicação deverá permitir o cadastro das opções de refeições que serão disponibilizadas no cardápio com fotos e preços**
 
-[Cardapio.js](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t7-grupo4-orderapp/blob/57e7b1071b083c0720ec2aba401b431e50eeae6f/src/pages/Cardapio.js)
-
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t7-grupo4-orderapp/assets/59944150/f6c32194-a5d5-4c5e-9798-3cab9b08c3c3)
-
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t7-grupo4-orderapp/assets/59944150/f79ed3bb-4c3d-41b9-a9e3-1561778e827a)
+ [Cardapio.js](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t7-grupo4-orderapp/blob/57e7b1071b083c0720ec2aba401b431e50eeae6f/src/pages/Cardapio.js) 
+ 
+ ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t7-grupo4-orderapp/assets/59944150/f6c32194-a5d5-4c5e-9798-3cab9b08c3c3)    ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t7-grupo4-orderapp/assets/59944150/f79ed3bb-4c3d-41b9-a9e3-1561778e827a)  
 
 
 
@@ -46,9 +44,9 @@ Implementação do sistema descritas por meio dos requisitos funcionais e/ou nã
 
 **RF-007| A aplicação deverá realizar o cálculo do valor do pedido do cliente**
 
-[Mesas.js](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t7-grupo4-orderapp/blob/650bcff29cdd2d5a28a75f0e4d8692565d3b60ca/src/pages/Mesas.js)
+ [Mesas.js](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t7-grupo4-orderapp/blob/650bcff29cdd2d5a28a75f0e4d8692565d3b60ca/src/pages/Mesas.js) 
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t7-grupo4-orderapp/assets/59944150/4aec84fd-1da2-4ea8-b08c-2ef4a6d3ee5b)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t7-grupo4-orderapp/assets/59944150/4aec84fd-1da2-4ea8-b08c-2ef4a6d3ee5b) 
 
 
 **RF-009| A aplicação deverá permitir cadastramento das mesas**
