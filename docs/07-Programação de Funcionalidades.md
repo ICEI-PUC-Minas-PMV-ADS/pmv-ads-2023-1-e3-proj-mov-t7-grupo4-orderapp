@@ -32,6 +32,16 @@ Implementação do sistema descritas por meio dos requisitos funcionais e/ou nã
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t7-grupo4-orderapp/assets/59944150/c03c1183-adeb-4a6a-9d25-39d17e9e4e19)
 
 
+**RF-005| A aplicação deverá permitir o cadastro das opções de refeições que serão disponibilizadas no cardápio com fotos e preços**
+
+[Cardapio.js](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t7-grupo4-orderapp/blob/57e7b1071b083c0720ec2aba401b431e50eeae6f/src/pages/Cardapio.js)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t7-grupo4-orderapp/assets/59944150/f6c32194-a5d5-4c5e-9798-3cab9b08c3c3)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t7-grupo4-orderapp/assets/59944150/f79ed3bb-4c3d-41b9-a9e3-1561778e827a)
+
+
+
 **RF-006| A aplicação deverá permitir que o pedido seja finalizado**
 
 **RF-007| A aplicação deverá realizar o cálculo do valor do pedido do cliente**
