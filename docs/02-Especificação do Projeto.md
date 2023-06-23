@@ -39,28 +39,28 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deverá permitir que o usuário acesse o sistema com Nome de Usuário e Senha  | ALTA | 
-|RF-002| A aplicação deverá permitir o cadastro de funcionários  | ALTA | 
-|RF-003| A aplicação deverá permitir que o garçom realize a abertura do pedido de um cliente |ALTA |
-|RF-004|A aplicação deverá permitir que o garçom consiga atrelar o pedido do cliente a sua respectiva mesa| ALTA | 
-|RF-005| A aplicação deverá permitir o cadastro das opções de refeições que serão disponibilizadas no cardápio com fotos e preços | ALTA |
-|RF-006|A aplicação deverá permitir que o pedido seja finalizado | ALTA | 
-|RF-007|A aplicação deverá realizar o cálculo do valor do pedido do cliente | ALTA |
-|RF-008|A aplicação deverá informar o tempo de permanência do cliente no estabelecimento | MÉDIA | 
-|RF-009|A aplicação deverá permitir cadastramento das mesas | ALTA |
-|RF-010|A aplicação deverá permitir que o pedido seja visualizado pelo setor de Cozinha| ALTA | 
-|RF-011|A aplicação deverá permitir gerar QRCode para que o cliente possa acessar o cardápio| MÉDIA |
-|RF-012|A aplicação deverá informar o status do pedido na comanda   | ALTA |
+|RF-01| A aplicação deverá permitir que o usuário acesse o sistema com Nome de Usuário e Senha  | ALTA | 
+|RF-02| A aplicação deverá permitir o cadastro de funcionários  | ALTA | 
+|RF-03| A aplicação deverá permitir que o garçom realize a abertura do pedido de um cliente |ALTA |
+|RF-04|A aplicação deverá permitir que o garçom consiga atrelar o pedido do cliente a sua respectiva mesa| ALTA | 
+|RF-05| A aplicação deverá permitir o cadastro das opções de refeições que serão disponibilizadas no cardápio com fotos e preços | ALTA |
+|RF-06|A aplicação deverá permitir que o pedido seja finalizado | ALTA | 
+|RF-07|A aplicação deverá realizar o cálculo do valor do pedido do cliente | ALTA |
+|RF-08|A aplicação deverá informar o tempo de permanência do cliente no estabelecimento | MÉDIA | 
+|RF-09|A aplicação deverá permitir cadastramento das mesas | ALTA |
+|RF-10|A aplicação deverá permitir que o pedido seja visualizado pelo setor de Cozinha| ALTA | 
+|RF-11|A aplicação deverá permitir gerar QRCode para que o cliente possa acessar o cardápio| MÉDIA |
+|RF-12|A aplicação deverá informar o status do pedido na comanda   | ALTA |
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001|A aplicação deverá permitir o acesso de várias pessoas simultaneamente | ALTA | 
-|RNF-002|A aplicação deverá ser responsiva se adequando a smartphones e tablets|   ALTA | 
-|RNF-003|A aplicação deverá ser protegida contra acesso não autorizado |  ALTA | 
-|RNF-004|A aplicação deverá ser prática quanto ao uso e entendimento |   ALTA | 
+|RNF-01|A aplicação deverá permitir o acesso de várias pessoas simultaneamente | ALTA | 
+|RNF-02|A aplicação deverá ser responsiva se adequando a smartphones e tablets|   ALTA | 
+|RNF-03|A aplicação deverá ser protegida contra acesso não autorizado |  ALTA | 
+|RNF-04|A aplicação deverá ser prática quanto ao uso e entendimento |   ALTA | 
 
 
 ## Restrições
