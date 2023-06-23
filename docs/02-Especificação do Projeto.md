@@ -39,18 +39,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-01| A aplicação deverá permitir que o usuário acesse o sistema com Nome de Usuário e Senha  | ALTA | 
-|RF-02| A aplicação deverá permitir o cadastro de funcionários  | ALTA | 
-|RF-03| A aplicação deverá permitir que o garçom realize a abertura do pedido de um cliente |ALTA |
+|RF-01|A aplicação deverá permitir que o usuário acesse o sistema com Nome de Usuário e Senha | ALTA | 
+|RF-02|A aplicação deverá permitir o cadastro de funcionários | ALTA | 
+|RF-03|A aplicação deverá permitir que o garçom realize a abertura do pedido de um cliente|ALTA |
 |RF-04|A aplicação deverá permitir que o garçom consiga atrelar o pedido do cliente a sua respectiva mesa| ALTA | 
-|RF-05| A aplicação deverá permitir o cadastro das opções de refeições que serão disponibilizadas no cardápio com fotos e preços | ALTA |
-|RF-06|A aplicação deverá permitir que o pedido seja finalizado | ALTA | 
-|RF-07|A aplicação deverá realizar o cálculo do valor do pedido do cliente | ALTA |
-|RF-08|A aplicação deverá informar o tempo de permanência do cliente no estabelecimento | MÉDIA | 
-|RF-09|A aplicação deverá permitir cadastramento das mesas | ALTA |
+|RF-05|A aplicação deverá permitir o cadastro das opções de refeições que serão disponibilizadas no cardápio com preços| ALTA |
+|RF-06|A aplicação deverá permitir que o pedido seja finalizado| ALTA | 
+|RF-07|A aplicação deverá realizar o cálculo do valor do pedido do cliente| ALTA |
+|RF-08|A aplicação deverá informar o tempo de permanência do cliente no estabelecimento| MÉDIA | 
+|RF-09|A aplicação deverá permitir cadastramento das mesas| ALTA |
 |RF-10|A aplicação deverá permitir que o pedido seja visualizado pelo setor de Cozinha| ALTA | 
 |RF-11|A aplicação deverá permitir gerar QRCode para que o cliente possa acessar o cardápio| MÉDIA |
-|RF-12|A aplicação deverá informar o status do pedido na comanda   | ALTA |
+|RF-12|A aplicação deverá informar o status do pedido na comanda| ALTA |
 
 
 ### Requisitos não Funcionais
