@@ -1,0 +1,30 @@
+message: Please cite this software using these metadata.
+title: Oh Chefia
+authors:
+  - family-names: de Assis Oliveira
+    given-names:  Rafael
+  - family-names: Gurgel Bezerra
+    given-names:  Thais
+  - family-names: Luis Costa Moreira
+    given-names:  César
+  - family-names: Delareti Simões
+    given-names:  Douglas
+  - family-names: Agnes Massensini Pereira
+    given-names:  Karinne
+  - family-names: Henriqu Ertal de Oliveira
+    given-names:  Pedro
+  - family-names: de Souza Ponciano
+    given-names:  Vinicius
+  - name-suffix:  Professor
+    affiliation:  PUC Minas
+    family-names: Alves de Oliveira
+    given-names:  Pedro
+  keywords:
+  - Pedidos
+  - Restaurante
+  - Garçom
+  - Comida
+  - Bebida
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t7-grupo4-orderapp
+version: 1.0.0
+date-released: 2023-03-01
